@@ -1,6 +1,6 @@
-# Slideroom UI test automation project (Admission, ATS Manager)
+# AMEX UI Automation
 
-The project for automation and covering functionality checks for Outcomes and ATS Manager UI. 
+The project for automation and covering functionality checks for American Express. 
 
 ## Concepts included
 * Page Object Model
