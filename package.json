@@ -6,7 +6,7 @@
   "scripts": {
     "clean_report": "rm -rf ./report-dir",
     "eslint:fix": "eslint . --fix",
-    "ui:amex:": "BROWSER=CHROMIUM ENV=QA SUITE=ACCESSIBILITY APP=OUTCOMES playwright test /TestingAmex/specs/ui/review-portal/accessibility/app/dashboard"
+    "ui:amex:": "BROWSER=CHROMIUM ENV=QA SUITE=FUNCTIONALITY APP=AMEX playwright test TestingAmex/specs/amex"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/slideroom/qa-ui/issues"
   },
-  "homepage": "https://github.com/slideroom/qa-ui#readme",
+  "homepage": "https://github.com/ramyavijay2812/AmexL1.git",
   "dependencies": {
     "@faker-js/faker": "^9.2.0",
     "@playwright/test": "^1.49.0",
