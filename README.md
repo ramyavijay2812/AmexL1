@@ -14,10 +14,12 @@ In order to utilize the project, you need to have the installed locally Node.js 
 
 
 ### Installing and test execution are so simple:
-1. Created a .env file to fetch environmental variables`
+1. Add a .env file to fetch below environmental variables`
+BASEURL = "https://www.americanexpress.com/fr-fr/?inav=NavLogo"
+ENV = "QA"
 
 
-2. At the first execution and after updates of npm packages you need to perform the following command in your terminal and be located in the root dir of the project:
+3. At the first execution and after updates of npm packages you need to perform the following command in your terminal and be located in the root dir of the project:
 
     * `npm i` 
 
