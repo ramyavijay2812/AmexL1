@@ -27,6 +27,7 @@
     "playwright": "^1.49.0",
     "prettier": "^3.3.3",
     "random-js": "^2.1.0",
+    "moment": "^2.30.1",
     "source-map-support": "^0.5.21",
     "ssh2-sftp-client": "^11.0.0",
     "ts-node": "^10.9.2",
