@@ -1,0 +1,309 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Ramya.V\\OneDrive - ENCORA\\Documents\\TestingAmex\\playwright.config.ts",
+    "rootDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "line",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "report-dir/report/playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report-dir/report/playwright-report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex/report-dir/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000000
+      },
+      {
+        "outputDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex/report-dir/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000000
+      },
+      {
+        "outputDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex/report-dir/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000000
+      },
+      {
+        "outputDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex/report-dir/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "galaxy_s8",
+        "name": "galaxy_s8",
+        "testDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000000
+      },
+      {
+        "outputDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex/report-dir/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "galaxy_s9",
+        "name": "galaxy_s9",
+        "testDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000000
+      },
+      {
+        "outputDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex/report-dir/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "iphone_xr",
+        "name": "iphone_xr",
+        "testDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000000
+      },
+      {
+        "outputDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex/report-dir/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "ipad",
+        "name": "ipad",
+        "testDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000000
+      },
+      {
+        "outputDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex/report-dir/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "pixel",
+        "name": "pixel",
+        "testDir": "C:/Users/Ramya.V/OneDrive - ENCORA/Documents/TestingAmex",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.50.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "specs\\amex\\homePage\\amex.spec.ts",
+      "file": "specs/amex/homePage/amex.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Functionality -> American Express Portal -> User Details Page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "status": "passed",
+                  "duration": 20474,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Check if landed on Home Page",
+                      "duration": 40
+                    },
+                    {
+                      "title": "Assertion: Check if we are on Home Page",
+                      "duration": 17
+                    },
+                    {
+                      "title": "Click on accept",
+                      "duration": 1946
+                    },
+                    {
+                      "title": "Click on CartenAmericanExpressLink",
+                      "duration": 169
+                    },
+                    {
+                      "title": "Click on Refuse",
+                      "duration": 2982
+                    },
+                    {
+                      "title": "Check if landed on All Cards Page",
+                      "duration": 19
+                    },
+                    {
+                      "title": "Assertion: Check if we are on All Cards Page",
+                      "duration": 32
+                    },
+                    {
+                      "title": "Click on EnSavoirPlusButto",
+                      "duration": 6875
+                    },
+                    {
+                      "title": "Check if landed on Gold card description Page",
+                      "duration": 33
+                    },
+                    {
+                      "title": "Assertion: Check if we are on Gold Card Description Page",
+                      "duration": 11
+                    },
+                    {
+                      "title": "Click on DemandezVotreCarte Button",
+                      "duration": 1891
+                    },
+                    {
+                      "title": "Check if landed on User Details Page",
+                      "duration": 28
+                    },
+                    {
+                      "title": "Assertion: Check if we are on User Details Page",
+                      "duration": 16
+                    },
+                    {
+                      "title": "Enter All Details",
+                      "duration": 572,
+                      "steps": [
+                        {
+                          "title": "Click on CiviliteRadioButton",
+                          "duration": 68
+                        },
+                        {
+                          "title": "Enter First Name",
+                          "duration": 74
+                        },
+                        {
+                          "title": "Enter Last Name",
+                          "duration": 35
+                        },
+                        {
+                          "title": "Enter DOB in DD/MM/YYYY format",
+                          "duration": 88
+                        },
+                        {
+                          "title": "Enter Email",
+                          "duration": 196
+                        },
+                        {
+                          "title": "Enter Email",
+                          "duration": 106
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Click on Continue",
+                      "duration": 201
+                    },
+                    {
+                      "title": "Check if landed on User Details Page 2",
+                      "duration": 14
+                    },
+                    {
+                      "title": "Assertion: Check if we are on User Details Page",
+                      "duration": 2
+                    }
+                  ],
+                  "startTime": "2025-02-13T13:55:36.844Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98999897467594e67ae3-db086a5494040596f87f",
+          "file": "specs/amex/homePage/amex.spec.ts",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-02-13T13:55:34.762Z",
+    "duration": 23173.189999999944,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

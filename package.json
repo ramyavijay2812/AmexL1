@@ -1,0 +1,49 @@
+{
+  "name": "l1-amex",
+  "version": "1.0.0",
+  "description": "UI Test Automation project for Outcomes by Liason",
+  "main": "index.js",
+  "scripts": {
+    "clean_report": "rm -rf ./report-dir",
+    "eslint:fix": "eslint . --fix",
+    "ui:amex:": "BROWSER=CHROMIUM ENV=QA SUITE=ACCESSIBILITY APP=OUTCOMES playwright test /TestingAmex/specs/ui/review-portal/accessibility/app/dashboard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slideroom/qa-ui.git"
+  },
+  "author": "Ramya Vijayanand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slideroom/qa-ui/issues"
+  },
+  "homepage": "https://github.com/slideroom/qa-ui#readme",
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.49.0",
+    "prettier": "^3.3.3",
+    "random-js": "^2.1.0",
+    "source-map-support": "^0.5.21",
+    "ssh2-sftp-client": "^11.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "zaproxy": "^2.0.0-rc.5"
+  },
+  "devDependencies": {   
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint": "^9.15.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "lodash": "^4.17.21",
+    "log4js": "^6.9.1",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
